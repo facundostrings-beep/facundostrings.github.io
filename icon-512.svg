@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='512' height='512'>
+  <!-- Fondo -->
+  <rect width='512' height='512' fill='#08090c' rx='112.64'/>
+  <!-- Gradiente atmosférico -->
+  <radialGradient id='g' cx='60%' cy='20%' r='70%'>
+    <stop offset='0%' stop-color='#1a3264' stop-opacity='0.6'/>
+    <stop offset='100%' stop-color='#08090c' stop-opacity='0'/>
+  </radialGradient>
+  <rect width='512' height='512' fill='url(#g)' rx='112.64'/>
+  <!-- Montañita escalada al tamaño del ícono -->
+  <g transform='translate(51.2, 76.8) scale(9.216)'>
+    <polyline points='4,28 9,28 13,18 18,24 24,6 30,16 34,12 39,18 45,28'
+      fill='none' stroke='rgba(200,241,53,0.85)' stroke-width='2.2'
+      stroke-linecap='round' stroke-linejoin='round'/>
+    <circle cx='24' cy='6' r='2.5' fill='rgba(200,241,53,0.7)'/>
+  </g>
+  <!-- JERE texto -->
+  <text x='66.56' y='419.84' 
+    font-family='Helvetica Neue,Arial,sans-serif' 
+    font-weight='300' letter-spacing='20.48'
+    font-size='81.92' fill='rgba(240,242,248,0.9)'>JERE</text>
+  <!-- Línea acento verde -->
+  <rect x='66.56' y='435.2' width='112.64' height='6.144' fill='rgba(200,241,53,0.5)'/>
+</svg>
